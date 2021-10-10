@@ -1,10 +1,14 @@
 <template>
+<img src="@/assets/logo_ic.png" alt="Logo-ic">
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
+
+<script>
+</script>
 
 <style>
 #app {
@@ -17,6 +21,7 @@
 
 #nav {
   padding: 30px;
+  text-align: left;
 }
 
 #nav a {
